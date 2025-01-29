@@ -1,23 +1,24 @@
 import streamlit as st
-import pandas as pd
-
-
 # Title of the app
 st.title("Tsepo Sekhoasha Profile Page")
 st.divider()
-
 # Collect basic information
 name = "Tsepo Sekhaosha"
 field = "Astrophysics"
-institution = "University of KwaZulu-Natal (UKZN)"
+institution = "University of KwaZulu-Natal"
 
 # Display basic profile information
-st.header("Researcher Overview")
-st.image("Tsepo_Pic.jpg", width=200, channels="RGB", output_format="auto")
-st.write(f"**Name:** {name}")
-st.write(f"**Field of Research:** {field}")
-st.write(f"**Institution:** {institution}")
+st.header("Basic information")
 
+col1, col2 = st.columns(2)
+
+with col1:
+   st.write(f"**Name:** {name}")
+   st.write(f"**Field of Research:** {field}")
+   st.write(f"**Institution:** {institution}") 
+
+with col2:
+    st.image("Tsepo_Pic.jpg", width=200, channels="RGB", output_format="auto")
 
 # Add a section for publications
 st.header("About Me")
@@ -25,7 +26,6 @@ st.write("It is a long established fact that a reader will be distracted by the 
 st.header("My Carrear CV")
 
 st.image("TsepoCV.PNG", width=500, channels="RGB", output_format="auto")
-
 
 # Add a contact section
 st.header("Contact Information")
