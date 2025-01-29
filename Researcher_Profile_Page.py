@@ -4,6 +4,7 @@ import pandas as pd
 
 # Title of the app
 st.title("Tsepo Sekhoasha Profile Page")
+st.divider()
 
 # Collect basic information
 name = "Tsepo Sekhaosha"
