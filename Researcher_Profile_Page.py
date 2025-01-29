@@ -8,7 +8,7 @@ st.title("Tsepo Sekhoasha Profile Page")
 # Collect basic information
 name = "Tsepo Sekhaosha"
 field = "Astrophysics"
-institution = "University of KwaZulu-Natal (UKZN)"
+institution = "University of KwaZulu-Natal (UKZ)"
 
 # Display basic profile information
 st.header("Researcher Overview")
