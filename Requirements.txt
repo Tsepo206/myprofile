@@ -1,2 +1,4 @@
 #Add all the libraries that you used when you were creating your profile
 pandas
+plotly
+matplotlib
