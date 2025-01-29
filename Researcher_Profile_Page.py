@@ -1,11 +1,11 @@
 import streamlit as st
 # Title of the app
-st.title("Tsepo Sekhoasha Profile Page")
+st.title("Carrear Profile Page")
 st.divider()
 # Collect basic information
 name = "Tsepo Sekhaosha"
 field = "Astrophysics"
-institution = "University of KwaZulu-Natal"
+institution = "University of KwaZulu-Natal (UKZN)"
 
 # Display basic profile information
 st.header("Basic information")
